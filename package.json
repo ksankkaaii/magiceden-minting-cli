@@ -1,0 +1,29 @@
+{
+  "license": "MIT",
+  "name": "next-cm-v2",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev -p 3030",
+    "build": "next build",
+    "start": "next start -p 3030",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@bundlr-network/client": "^0.2.4",
+    "@civic/solana-gateway-react": "^0.4.6",
+    "@metaplex/js": "^2.0.1",
+    "@project-serum/anchor": "^0.14.0",
+    "@solana/spl-token": "^0.1.8",
+    "@solana/web3.js": "^1.31.0",
+    "commander": "^9.0.0",
+    "https-proxy-agent": "^5.0.0",
+    "loglevel": "^1.8.0",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "typescript": "4.4.3"
+  }
+}
